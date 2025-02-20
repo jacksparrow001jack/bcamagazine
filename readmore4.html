@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Container Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            width: 70%;
+            height: auto;
+            background: white;
+            padding: 55px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .left-content {
+            width: 60%;
+            padding: 20px;
+        }
+
+        .left-content h1 {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .left-content p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        .right-content {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .right-content img {
+            width: 110%;
+            height: auto;
+            border-radius: 10px;
+            background-color: blue;
+        }
+
+        .social-icons {
+            margin-top: 200px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            font-size: 24px;
+            color: black;
+        }
+
+        .social-icons a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-content">
+            <h1> DEWED </h1>
+            <p>
+                Join DEWED (Digital Enterprise Workforce Enablement & Development), 
+                an initiative by the Association of Computer Application Intellectuals. 
+                Enhance your technical skills by becoming part of KSREI & ACAI’s training and project management team.
+            </p>
+            <div class="social-icons">
+              
+                <a href="https://www.facebook.com/profile.php?id=100010808221265" target="_blank">f</a>
+                <a href="https://www.instagram.com/p/C1HiDxuhxUr/?igsh=MWh4N2RrOTM1ODZ1cw==" target="_blank">📷</a>
+                <a href="https://x.com/ksrcas1995?t=wfsXSrk4wo_ImAfLm_jIRw&s=08" target="_blank">X</a>
+            </div>
+        </div>
+        <div class="right-content">
+            <img src="MASTER 2.jpg" alt="Right Image">
+        </div>
+    </div>
+
+    <script>
+        console.log("Webpage Loaded Successfully!");
+    </script>
+</body>
+</html>

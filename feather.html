@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEATURES</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 45vh;
+        }
+
+        .left-section {
+            width: 50%;
+            background-color: #333; /* Dark background for contrast */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-section img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .right-section {
+            width: 50%;
+            background-color: #ffffff; /* White background for text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .right-section h1 {
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .right-section p {
+            color: #555;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="web.jpg" alt="Left Image">
+        </div>
+        <div class="right-section">
+            <h1>Web Development
+            </h1>
+            <p id="text">
+                Web development involves building and maintaining websites, web applications, 
+                and mobile applications. It includes front-end (UI/UX), back-end (server-side logic), 
+                and database management. Popular frameworks and tools include React, Node.js, and MongoDB. 
+                It's a constantly evolving field with new technologies emerging regularly.
+            </p>
+            
+        </div>
+        <br>
+    </div>    <div class="container">
+        <div class="left-section">
+            <img src="Database.webp" alt="Left Image">
+        </div>
+        <div class="right-section">
+            <h1>Database Management</h1>
+            <p id="text">
+                Database management refers to the process of designing, implementing, and maintaining databases to store and manage data. This includes:<br>
+
+
+- Data modeling and schema design<br>
+- Data storage and retrieval<br>
+- Data security and backup<br>
+- Querying and indexing
+
+            </p>
+            
+        </div>
+        <br>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <img src="software.jpg" alt="Left Image">
+        </div>
+        <div class="right-section">
+            <h1>Software Engineering</h1>
+            <p id="text"> Software engineering applies engineering principles to design, develop, test, and maintain software. It involves requirements gathering, design, coding, and testing. Key aspects include agile methodologies, version control, and continuous integration. It aims to produce high-quality, reliable, and efficient software systems.</p>
+            
+        </div>
+    </div>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").innerText = "You clicked the button!";
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Webpage Loaded Successfully!");
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta  name="viewport" content="width=device-width,  initial-scale=1.0">
+        <title>EVENTS</title>
+        <link rel="stylesheet" href="read.css">
+        <title>Two-Image Layout with Read More</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+         
+    
+            .container {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+    
+            .box {
+                width: 45%;
+                background-color: #ffffff;
+                position: relative;
+                padding: 8px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                font-style: italic;
+                border-radius: 10px;
+            }
+    
+            .box img {
+                width: 75%;
+                height: 590px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+    
+            .text {
+                position: absolute;
+                bottom: 80px;
+                left: 330px;
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+            }
+    
+            .read-more {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: blue;
+                color: white;
+                padding: 8px 12px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+    
+            .read-more:hover {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="hero-section">
+                <img src="ksrarts.jpeg" alt="Adventure Image">
+                <div class="content">
+                    <h1>DEPARTMENT OF BCA</h1>
+                    <p> 
+                        The Department of BCA at K.S. Rangasamy College of Arts and Science is a prestigious department offering a
+                         comprehensive three-year undergraduate program in computer applications. 
+                                                 <br><br>
+                                                 The program is designed to equip students with the latest technologies and trends in the industry, 
+                                                 enabling them to succeed in their chosen careers.</p>
+                
+                    <a href="BCA1.html" class="read-story">read the story →</a>
+
+                    
+                </div> 
+            </div>
+        </main>
+        <hr>
+        <br>
+        <div class="container">
+            <div class="box">
+                <img src="ksrfeest25.jpg" alt="Left Image">
+                <p class="text"></p>
+                <a href="readmore1.html" class="read-more">Read More..</a>
+            </div>
+            <div class="box">
+                <img src="tenet.jpg" alt="Right Image">
+                <p class="text"></p>
+                <a href="readmore2.html" class="read-more">Read More..</a>
+            </div>
+        </div>
+
+        <script>
+            console.log("Webpage Loaded Successfully!");
+        </script>
+        <br>
+        <div class="container">
+            <div class="box">
+                <img src="sparta.jpg" alt="Left Image">
+                <p class="text"></p>
+                <a href="readmore3.html" class="read-more">Read More..</a>
+            </div>
+            <div class="box">
+                <img src="MASTER 2.jpg" alt="Right Image">
+                <p class="text"></p>
+                <a href="readmore4.html" class="read-more">Read More..</a>
+            </div>
+        </div>
+
+        <script>
+            console.log("Webpage Loaded Successfully!");
+        </script>
+        <script src="indexscript.js"></script>
+    </body>
+</html>
